@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: 100;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: "Roboto", sans-serif;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+.header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.logo {
+	width: 150px;
+}
+
+.title_bar {
+	display: table;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.title_bar span {
+	font-size: 20px;
+	color: #515151;
+	display: table-cell;
+	width: 50%;
+	padding: 8px 20px;
+	text-align: left;
+}
+
+.title {
+	border-right: 1px solid #B4B4B4;
+	text-align: right;
+}
+
+.content {
+	width: 200%;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-ms-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+}
+
+.page {
+	float: left;
+	width: 44%;
+	padding: 0 3%;
+}
+
+.page ul {
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.project {
+	width: 26.333%;
+	margin: 3.5%;
+	float: left;
+	height: 500px;
+}
+
+.project_img_section {
+	text-align: center;
+}
+
+.project_img {
+	max-width: 100%;
+	max-height: 270px;
+}
+
+.project_title {
+	font-weight: 400;
+	font-size: 23px;
+	margin: 10px 0;
+	color: #515151;
+}
+
+.project_description {
+	font-weight: 300;
+	color: #515151;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.read_more{
+	color: #515151;
+	font-weight: 700;
+	display: block;
+	margin: 10px 0; 
+}
+
+.scroll_buttons {
+	text-align: center;
+}
+
+.scroll_buttons div {
+	display: inline-block;
+	width: 20px;
+	height: 32px;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.scroll_left_button {
+	background: url("../img/design_code/scroll_left_button.png") center top/100% no-repeat;
+}
+
+.scroll_left_button.disabled{
+	background: url("../img/design_code/scroll_left_button_disabled.png") center top/100% no-repeat;
+}
+
+.scroll_right_button {
+	background: url("../img/design_code/scroll_right_button.png") center top/100% no-repeat;
+}
+
+.scroll_right_button.disabled {
+	background: url("../img/design_code/scroll_right_button_disabled.png") center top/100% no-repeat;
+}
+
+.footer {
+	padding: 10px 0 5px;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.6);
+}
+
+.share{
+	padding: 20px 0 30px;
+	text-align: center;
+}
+
+.share li{
+	height: 30px;
+	width: 30px;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.share li a{
+	display: block;
+	height: 100%;
+}
+
+.facebook{
+	background: url("../img/design_code/facebook.png") center/cover;
+}
+
+.google_plus{
+	background: url("../img/design_code/google.png") center/cover;
+}
+
+.twitter{
+	background: url("../img/design_code/twitter.png") center/cover;
+}
+
+.linkedin{
+	background: url("../img/design_code/linkedin.png") center/cover;
+}
+
+

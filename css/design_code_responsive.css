@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+	.project {
+		width: 40%;
+		margin: 5%;
+	}
+
+	.share {
+		text-align: center;
+		position: initial;
+		padding: 10px 0 4px;
+	}
+
+	.share li {
+		float: none;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 480px) {
+	.project {
+		width: 90%;
+		margin: 5%;
+	}
+
+	.project_img {
+		width: 80%;
+	}
+
+	.logo {
+		width: 120px;
+	}
+
+	.title_bar span {
+		font-size: 17px;
+		padding: 5px 20px;
+	}
+
+}
