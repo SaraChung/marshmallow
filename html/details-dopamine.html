@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="../css/details.css" />
+		<link rel="stylesheet" type="text/css" href="../css/details_responsive.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_container">
+				<a href="landing.html"><img alt="Logo" src="../img/details/logo_placeholder.png" class="logo"/>
+				<div class="portfolio_title_container">
+					<h3 class="portfolio_title">Sara Chung</h3><h4 class="portfolio_subtitle">Junior Web Developer</h4>
+				</div></a>
+				<ul class="top_nav">
+					<li>
+						<a href="landing.html">HOME</a>
+					</li>
+					<li>
+						<a href="code.html">CODE</a>
+					</li>
+					<li>
+						<a href="design.html">DESIGN</a>
+					</li>					
+				</ul>
+			</div>
+		</div>
+		<div class = "content">
+			<div class="title_bar">
+				<div>
+					<img alt="Project logo" src="../img/details/project_logo_placeholder.png" class="project_logo"/>
+					<div class="project_title_container">
+						<h3 class="project_title">Dopamine</h3><h4 class="project_subtitle">Find your Workout Buddy</h4>
+					</div>
+				</div>
+			</div>
+			<div class="project_description">
+				<div class="left_column">
+					<img class="project_img" src="../img/details/project/placeholder.png"/>
+					<div class="project_short_desc">
+						<img alt="Project logo" src="../img/details/project_logo_placeholder_grey.png" class="project_logo"/>
+						<div class="project_short_desc_content">
+							<span>Technologies used</span>
+							Wireframing: MocUps, Ruby on Rails, JavaScript, HTML5, Foundation, Amazon S3, PostgreSQL 
+						</div>
+					</div>
+					<div class="main_desc">
+						<h2>About</h2>
+						<p>
+							Many people work with a partner to increase motivation, and to hold themselves accountable to their goals. As they say, there is power in numbers, and with company, people might also be more open to trying new activities. Research has also shown that people work harder in teams, given the friendly competition. Besides, with someone providing help, it could make workouts safer and there could be mutual learning involved. All this leads to an increase in dopamine, which is a hormone produced in the brain that improved feelings of happiness and well-being.
+						</p>
+						<h2>My approach to it</h2>
+						<p>
+							This is was my final project for Bitmaker Labs. I came up with the idea for it when a friend and I decided to workout together, but picked two different activities, and we ended up not being able to find other partners to join us in our quest for eternal health.
+
+							It is an app that allows you to connect with people who share the same activity/workout interests as you do within your chosen location range. You can connect on your time when you want and where you want.
+
+							Once logged in (can be done with Facebook as well), you can post pictures and blog posts about your workouts a la instagram and tumblr(or choose not to) and select your activity. You can learn about a person through their user profile or blog posts, and decide if they are a good match.
+
+							Dopamine's search is based on your laptop's location, and matches are filtered by geographical distance and age.
+						</p>
+						<div class="subsection">
+							<h3>Challenges</h3>
+							<p>
+								I initially wanted a realtime chat function, but that idea was scrapped as my skills were not up to par yet. The first iteration was done with messages, which could only be seen whenever the browser was refreshed. I then checked up on ruby gems which could be used, but the ones I found such as realtime-rails were not updated or supported anymore. I also checked out socket.io and found it complicated. After the course was over and I had a little more free time, I experimented with Firebase, and finally managed to get it to work.
+
+								I also want to integrate Facebook's API as a form of verification.
+
+								Because I was working on this alone, it took a longer time for me to figure out my mistakes and debug any errors. Also, my idea was stolen by a fellow Bitmaker, and I learnt how to deal with a situation like this should it arise again.
+							</p>
+						</div>
+						<h2>Conclusion</h2>
+						<p>
+							This could not have been done without the help of Bitmaker Labs' instructors, and a few amazing people from Bitmakers' Cohort 8. This was a great learning experience with both technical and ethical issues encountered, and made me realize how much I enjoy the high of making something and making it work well.
+
+							PS. This app is not fully complete and work on it will be picked up again in 2015.
+						</p>
+					</div>
+				</div>
+				<div class="right_column">
+					<div class="quote">
+						<img class="quote_sign" src="../img/details/quotes.png"/>
+						Lorem ipsum dolor sit amet, maiestatis intellegebat in quo, timeam tibique ea vix. 
+						<div class="quote_author">
+							Quote author
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="share">
+				<li>
+					<a href="#" class="facebook"></a>
+				</li>
+				<li>
+					<a href="#" class="google_plus"></a>
+				</li>
+				<li>
+					<a href="#" class="twitter"></a>
+				</li>
+				<li>
+					<a href="#" class="linkedin"></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
